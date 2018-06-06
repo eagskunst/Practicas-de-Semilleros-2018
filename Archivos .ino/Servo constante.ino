@@ -1,3 +1,7 @@
+/*
+Se utiliza el esquema Incredible Borwo-Densor.png
+*/
+
 #include <Servo.h>
 
 Servo servo;
