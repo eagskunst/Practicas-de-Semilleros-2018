@@ -1,0 +1,15 @@
+int pinzumbador = 13;    // pin del altavoz
+int frecuencia = 200;      // frecuencia del sonido
+
+void setup()
+{
+  pinMode(pinzumbador,OUTPUT);//se indica la salida del sonido
+}
+
+void loop()
+{
+    tone(pinzumbador,frecuencia);    // inicia el zumbido
+    delay(2000);                    
+    noTone(pinzumbador);               // lo detiene a los dos segundos
+    delay(1000);
+}
